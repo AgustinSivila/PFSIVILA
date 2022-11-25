@@ -1,0 +1,26 @@
+.personajes{
+    @extend .peliculas;
+
+}
+.kenobi{
+    display: flex;
+    padding-left: 40%;
+    padding-right: 20%;
+    width: 1700px;
+    border: ridge #0f0fef 1px;
+}
+.jedi{
+    color: white;
+    position: relative;
+    right: 1100px;
+    bottom: 450px;
+    font-size:large;
+}
+
+.jedi2{
+    color: white;
+    right: 1100px;
+    bottom: 450px;
+    position:relative;
+    font-size: 13px;
+}

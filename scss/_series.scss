@@ -1,0 +1,17 @@
+.series{
+    @extend .peliculas;
+ }
+ .grogu{
+     display: block;
+     margin: auto;
+     width: 80%;
+ }
+ .din{
+    font-size: 2.6rem;
+    color: white;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px;
+ }
