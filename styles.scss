@@ -7,35 +7,26 @@
 
 .logo { 
     margin-top: 5px;
-    max-height: 200px;
-    
-}
-    
+    max-height: 200px; 
+    width: auto;
+  }
+
+  
 .category {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 20%;
-    padding-right: 20%;
-    border-style: groove;
-    color: white;
-    background-color:black;
-    padding: 1em;
+  border-style: groove;
+  color: white;
+  background-color: black;
    
     
 }
 .category li a{
-    color:white;
-    width: 15px; 
-    height: 15px;
-    transition: all 2s; width: 2s;
+    color: white;
+    transition: all 2s;
+    width: 2s;
      
 }
 
 .category li a:hover {
-        height: 25x; 
-        width: 25px;
-       padding: 25px;
        background-color:blue;
 }
 
